@@ -15,5 +15,5 @@
 ## Opciones para formteo de salida
 ![Imgur](https://imgur.com/oWvp4mu.png "Tabla 2")
 ## Opcines para limitar la salida de la terminal de git
-![Imgur](https://imgur.com/pzmONdn.png "Tabla 3")
-
+![Imgur](https://imgur.com/pzmONdn.png "Tabla 3") 
+> Tabla 3   
