@@ -15,4 +15,9 @@ Esto se refiere a repositorios remotos como Github, con remote podemos acceder a
     - Este comando envia modificaciones o archivos nuevos al repositorio remoto, cabe mencionar que se enviaran si tienes permisos de escritura de lo contrario se debe realizar un fork
 ## Inspeccionar un remoto
 - git remote show <nombre_remoto>
-    - Muestra informacion del remoto 
+    - Muestra informacion del remoto sobre la URL, la rama donde se estan guardando los archivos y al final si se esta enviando o no los archivos remotos
+## Renombrar y eliminar remotos
+- git remote rename <nombre_actual> <nuevo_nombre>
+    - Al renombrar un remoto tambien renombramos la ramas remotas
+- git remote -rm
+    - Se usa cuando ya no queremos utilizarlo, cambiamos de repositorio remoto o algun colaborardor ya no trabajar en el proyecto
