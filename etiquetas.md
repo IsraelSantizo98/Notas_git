@@ -24,3 +24,5 @@ Estas sirven para marcar puntos especificos en la historia de nuestros archivos
 ## Hacer cambios y ver el estado de un tag
 Con esto podemos modificar o eliminar commits ya que crea un rama experimental, al final tenemos dos opciones o regresar a la historia mas actual (main) o hacer una rama para hacer este ultimo se debe escribir git switch -c <nombre_rama>
 + git checkout <nombre_tag>
+    - git switch -c <nombre_rama>
+        * Esto hace que con alguna modificacion hecha en la rama experimental se quede guardado completamente
