@@ -26,3 +26,4 @@ Con esto podemos modificar o eliminar commits ya que crea un rama experimental, 
 + git checkout <nombre_tag>
     - git switch -c <nombre_rama>
         * Esto hace que con alguna modificacion hecha en la rama experimental se quede guardado completamente
+> Para regresar sin hacer ningun cambio git checkout main
