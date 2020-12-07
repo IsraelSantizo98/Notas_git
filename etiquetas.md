@@ -12,3 +12,12 @@ Estas sirven para marcar puntos especificos en la historia de nuestros archivos
 ## Etiquetas ligeras
 + git tag v0.1-lw
     - Este comando solo hace referencia al commit seleccionado y se añade lw para indicar que es una etiqueta ligera
+## Etiquetas un commit ya antiguo en la historia
++ git tag -a v0.11 <id_commit> -m "Mensaje"
+## Enviar etiquetas al remoto
++ git push origin v0.1
+    - Enviar una etiqueta a la 
++ git push <nombre_remote> --tags
+## Eliminar una etiqueta
++ git tag -d <nombre_tag>
++ git push origin --delete <nombre_etiqueta>
