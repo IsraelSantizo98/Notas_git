@@ -21,3 +21,6 @@ Estas sirven para marcar puntos especificos en la historia de nuestros archivos
 ## Eliminar una etiqueta
 + git tag -d <nombre_tag>
 + git push origin --delete <nombre_etiqueta>
+## Hacer cambios y ver el estado de un tag
+Con esto podemos modificar o eliminar commits ya que crea un rama experimental, al final tenemos dos opciones o regresar a la historia mas actual (main) o hacer una rama para hacer este ultimo se debe escribir git switch -c <nombre_rama>
++ git checkout <nombre_tag>
